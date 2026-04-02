@@ -27,11 +27,10 @@ const GalleryHero = () => {
         </p>
         <button
           onClick={() => navigate("/gallery")}
-          className="mt-10 px-8 py-3 border border-gallery-stone/40 text-gallery-stone font-body text-sm tracking-widest uppercase hover:bg-primary/20 hover:border-primary transition-all duration-300 rounded-sm opacity-0 animate-fade-up animation-delay-600"
+          className="mt-10 px-8 py-3 border-2 border-gallery-stone/60 text-gallery-stone font-body font-semibold text-sm tracking-widest uppercase hover:bg-primary/20 hover:border-primary transition-all duration-300 rounded-sm opacity-0 animate-fade-up animation-delay-600"
         >
           Explore
-        </button>
-      </div>
+        </button>      </div>
     </section>
   );
 };
