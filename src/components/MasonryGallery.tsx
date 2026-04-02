@@ -11,15 +11,15 @@ import saq from "@/assets/cricket/cricket-7-h.jpeg";
 import bsk7 from "@/assets/basketball/basket-ball-7.jpeg";
 
 const photos = [
-  { src: chess6, title: " ", category: "Landscape" },
-  { src: crk_md, title: " ", category: "Architecture" },
-  { src: tbltns, title: " ", category: "Macro" },
-  { src: basketball3, title: " ", category: "Aerial" },
-  { src: saq, title: " ", category: "Seascape" },
-  { src: crk12, title: " ", category: "Street" },
-  { src: kbd, title: " ", category: "Landscape" },
-  { src: volleyball9, title: " ", category: "Landscape" },
-  { src: bsk7, title: " ", category: "Landscape" },
+  { src: chess6, title: " ", category: " " },
+  { src: crk_md, title: " ", category: " " },
+  { src: tbltns, title: " ", category: " " },
+  { src: basketball3, title: " ", category: " " },
+  { src: saq, title: " ", category: " " },
+  { src: crk12, title: " ", category: " " },
+  { src: kbd, title: " ", category: " " },
+  { src: volleyball9, title: " ", category: " " },
+  { src: bsk7, title: " ", category: " " },
 ];
 
 const MasonryGallery = () => {
