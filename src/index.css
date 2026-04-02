@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 20% 97%;
+    --foreground: 30 10% 12%;
+
+    --card: 40 25% 95%;
+    --card-foreground: 30 10% 12%;
+
+    --popover: 40 20% 97%;
+    --popover-foreground: 30 10% 12%;
+
+    --primary: 28 60% 52%;
+    --primary-foreground: 40 20% 97%;
+
+    --secondary: 35 20% 90%;
+    --secondary-foreground: 30 10% 20%;
+
+    --muted: 35 15% 92%;
+    --muted-foreground: 30 8% 50%;
+
+    --accent: 28 45% 62%;
+    --accent-foreground: 40 20% 97%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 15% 88%;
+    --input: 35 15% 88%;
+    --ring: 28 60% 52%;
+
+    --radius: 0.5rem;
+
+    --gallery-warm: 30 30% 20%;
+    --gallery-stone: 35 12% 70%;
+    --gallery-cream: 40 30% 95%;
+    --gallery-amber: 28 70% 55%;
+    --gallery-overlay: 30 10% 8%;
+
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-body: 'DM Sans', system-ui, sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer components {
+  .gallery-hero-text {
+    @apply text-primary-foreground;
+    text-shadow: 0 2px 20px hsl(var(--gallery-overlay) / 0.5);
+  }
+
+  .gallery-image-hover {
+    @apply transition-all duration-500 ease-out;
+  }
+
+  .gallery-image-hover:hover {
+    transform: scale(1.03);
+    box-shadow: 0 20px 60px -15px hsl(var(--gallery-overlay) / 0.3);
+  }
+
+  .masonry-grid {
+    columns: 3 280px;
+    column-gap: 1rem;
+  }
+
+  .masonry-item {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-400 { animation-delay: 0.4s; }
+.animation-delay-600 { animation-delay: 0.6s; }
