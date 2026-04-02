@@ -14,7 +14,7 @@ const GalleryYears = () => {
         <div className="container mx-auto">
           <button
             onClick={() => navigate("/")}
-            className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body text-sm mb-8"
+            className="hidden md:flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body text-sm mb-8"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Home

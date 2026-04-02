@@ -8,7 +8,6 @@ import GalleryYears from "./pages/GalleryYears.tsx";
 import GalleryPrograms from "./pages/GalleryPrograms.tsx";
 import ProgramMedia from "./pages/ProgramMedia.tsx";
 import NotFound from "./pages/NotFound.tsx";
-import Layout from "./components/Layout.tsx"
 
 const queryClient = new QueryClient();
 
