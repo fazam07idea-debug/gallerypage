@@ -1,23 +1,25 @@
 import { useState } from "react";
 import { X } from "lucide-react";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import gallery5 from "@/assets/gallery-5.jpg";
-import gallery6 from "@/assets/gallery-6.jpg";
-import gallery7 from "@/assets/gallery-7.jpg";
-import gallery8 from "@/assets/gallery-8.jpg";
-import gallery1 from "@/assets/gallery-1.jpg";
+import chess6 from "@/assets/chess/chess-6.jpg";
+import kbd from "@/assets/kabaddi-1.jpg";
+import tbltns from "@/assets/table tennis/table-tennis-2.jpg";
+import basketball3 from "@/assets/basketball/basket-ball-3.jpg";
+import crk_md from "@/assets/crk_md.jpeg";
+import volleyball9 from "@/assets/volleyball/volleyball-9.jpg";
+import crk12 from "@/assets/cricket/cricket-12.jpeg";
+import saq from "@/assets/cricket/cricket-7-h.jpeg";
+import bsk7 from "@/assets/basketball/basket-ball-7.jpeg";
 
 const photos = [
-  { src: gallery7, title: "Alpine Majesty", category: "Landscape" },
-  { src: gallery2, title: "Geometric Light", category: "Architecture" },
-  { src: gallery3, title: "Morning Dew", category: "Macro" },
-  { src: gallery4, title: "River Mist", category: "Aerial" },
-  { src: gallery5, title: "Horizon Glow", category: "Seascape" },
-  { src: gallery6, title: "Cobblestone Evening", category: "Street" },
-  { src: gallery8, title: "Desert Waves", category: "Landscape" },
-  { src: gallery1, title: "Golden Fields", category: "Landscape" },
+  { src: chess6, title: "Alpine Majesty", category: "Landscape" },
+  { src: crk_md, title: "Geometric Light", category: "Architecture" },
+  { src: tbltns, title: "Morning Dew", category: "Macro" },
+  { src: basketball3, title: "River Mist", category: "Aerial" },
+  { src: saq, title: "Horizon Glow", category: "Seascape" },
+  { src: crk12, title: "Cobblestone Evening", category: "Street" },
+  { src: kbd, title: "Desert Waves", category: "Landscape" },
+  { src: volleyball9, title: "Golden Fields", category: "Landscape" },
+  { src: bsk7, title: "Golden Fields", category: "Landscape" },
 ];
 
 const MasonryGallery = () => {

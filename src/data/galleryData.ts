@@ -20,7 +20,27 @@ import basketball6 from "@/assets/basketball/basket-ball-6.jpg";
 import basketball7 from "@/assets/basketball/basket-ball-7.jpeg";
 
 
-import chess from "@/assets/chess/chess-1.jpg";
+import chess1 from "@/assets/chess/chess-1.jpeg";
+import chess2 from "@/assets/chess/chess-2.jpeg";
+import chess3 from "@/assets/chess/chess-3.jpeg";
+import chess4 from "@/assets/chess/chess-4.jpeg";
+import chess5 from "@/assets/chess/chess-5.jpeg";
+import chess6 from "@/assets/chess/chess-6.jpg";
+
+
+import crk1 from "@/assets/cricket/cricket-1.jpeg";
+import crk2 from "@/assets/cricket/cricket-2.jpeg";
+import crk3 from "@/assets/cricket/cricket-3.jpeg";
+import crk4 from "@/assets/cricket/cricket-4.jpeg";
+import crk5 from "@/assets/cricket/cricket-5.jpeg";
+import crk6 from "@/assets/cricket/cricket-6.jpeg";
+import crk7 from "@/assets/cricket/cricket-7-h.jpeg";
+import crk8 from "@/assets/cricket/cricket-8.jpeg";
+import crk9 from "@/assets/cricket/cricket-9.jpeg";
+import crk10 from "@/assets/cricket/cricket-10.jpeg";
+import crk11 from "@/assets/cricket/cricket-11.jpeg";
+import crk12 from "@/assets/cricket/cricket-12.jpeg";
+import crk13 from "@/assets/cricket/cricket-13.jpeg";
 
 
 
@@ -32,6 +52,15 @@ import tbltns2 from "@/assets/table tennis/table-tennis-2.jpg";
 import tbltns3 from "@/assets/table tennis/table-tennis-3.jpeg";
 
 
+import vol1 from "@/assets/volleyball/volleyball-1.jpeg";
+import vol2 from "@/assets/volleyball/volleyball-2.jpeg";
+import vol3 from "@/assets/volleyball/volleyball-3.jpeg";
+import vol4 from "@/assets/volleyball/volleyball-4.jpeg";
+import vol5 from "@/assets/volleyball/volleyball-5.jpeg";
+import vol6 from "@/assets/volleyball/volleyball-6.jpeg";
+import vol7 from "@/assets/volleyball/volleyball-7.jpeg";
+import vol8 from "@/assets/volleyball/volleyball-8.jpg";
+import vol9 from "@/assets/volleyball/volleyball-9.jpg";
 
 
 export interface ProgramData {
@@ -80,21 +109,35 @@ export const galleryData: YearData[] = [
         id: "chess",
         name: "Chess",
         icon: "MapPin",
-        cover: chess,
+        cover: chess1,
         media: [
-          { src: chess, type: "image", title: "" },
+          { src: chess1, type: "image", title: "" },
+          { src: chess2, type: "image", title: "" },
+          { src: chess3, type: "image", title: "" },
+          { src: chess4, type: "image", title: "" },
+          { src: chess5, type: "image", title: "" },
+          { src: chess6, type: "image", title: "" },
         ],
       },
       {
         id: "cricket",
         name: "Cricket",
         icon: "TreePine",
-        cover: gallery4,
+        cover: crk8,
         media: [
-          { src: gallery4, type: "image", title: "" },
-          { src: gallery7, type: "image", title: "" },
-          { src: gallery3, type: "image", title: "" },
-          { src: gallery8, type: "image", title: "" },
+          { src: crk1, type: "image", title: "" },
+          { src: crk2, type: "image", title: "" },
+          { src: crk3, type: "image", title: "" },
+          { src: crk4, type: "image", title: "" },
+          { src: crk5, type: "image", title: "" },
+          { src: crk6, type: "image", title: "" },
+          { src: crk7, type: "image", title: "" },
+          { src: crk8, type: "image", title: "" },
+          { src: crk9, type: "image", title: "" },
+          { src: crk10, type: "image", title: "" },
+          { src: crk11, type: "image", title: "" },
+          { src: crk12, type: "image", title: "" },
+          { src: crk13, type: "image", title: "" },
         ],
       },
 
@@ -117,6 +160,23 @@ export const galleryData: YearData[] = [
           { src: tbltns1, type: "image", title: "" },
           { src: tbltns2, type: "image", title: "" },
           { src: tbltns3, type: "image", title: "" }
+        ],
+      },
+      {
+        id: "volleball",
+        name: "Volleball",
+        icon: "Waves",
+        cover: vol9,
+        media: [
+          { src: vol1, type: "image", title: "" },
+          { src: vol2, type: "image", title: "" },
+          { src: vol3, type: "image", title: "" },
+          { src: vol4, type: "image", title: "" },
+          { src: vol5, type: "image", title: "" },
+          { src: vol6, type: "image", title: "" },
+          { src: vol7, type: "image", title: "" },
+          { src: vol8, type: "image", title: "" },
+          { src: vol9, type: "image", title: "" },
         ],
       },
     ],
